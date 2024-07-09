@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'jetbrains-mono', cursive;
+}
+
+body {
+    background-color: #202020;
+    padding: 20px;
+    animation: fadeInAnimation ease 2s;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: all 0.3s ease;
+}
+a:hover {
+    color: #409040 !important;
+}
