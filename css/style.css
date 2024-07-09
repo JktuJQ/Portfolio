@@ -4,20 +4,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'jetbrains-mono', cursive;
+    font-family: 'jetbrains-mono', sans-serif;
 }
 
 body {
-    background-color: #202020;
+    background-color: #1D1D1D;
     padding: 20px;
     animation: fadeInAnimation ease 2s;
 }
 
 a {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #DDDDDD;
     transition: all 0.3s ease;
 }
 a:hover {
-    color: #409040 !important;
+    color: #40CC40 !important;
 }
