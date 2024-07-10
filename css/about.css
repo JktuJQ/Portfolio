@@ -52,7 +52,7 @@
     font-size: 25px;
 }
 .about .left-side .info .developer-stack li {
-    padding: 6px 10px;
+    padding: 6px 5px;
     gap: 8px;
 
     display: flex;
@@ -61,6 +61,8 @@
     border-radius: 7px;
 
     font-size: 16px;
+
+    color: #999999;
 
     transition: all 0.3s ease;
 }

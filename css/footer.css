@@ -1,0 +1,27 @@
+footer {
+    margin-top: 20px;
+    padding: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: #202022;
+    color: #DDDDDD;
+    font-size: 18px;
+    font-weight: 500;
+
+    border: 1px solid #303020;
+    border-radius: 14px;
+}
+footer .social-links {
+    gap: 100px;
+
+    display: flex;
+    align-items: center;
+}
+footer .social-links a {
+    color: #DDDDDD;
+    font-size: 20px;
+    font-weight: 500;
+}
