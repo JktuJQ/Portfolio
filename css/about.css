@@ -13,7 +13,7 @@
 }
 
 .about .left-side h1 {
-    color: #999999;
+    color: #DDDDDD;
     font-size: 40px;
     font-weight: 400;
 }
@@ -67,7 +67,7 @@
     transition: all 0.3s ease;
 }
 .about .left-side .info .developer-stack li:hover {
-    background: #002000;
+    background: #206020;
 }
 
 .about .right-side a.online {
