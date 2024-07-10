@@ -11,6 +11,7 @@
     flex: 1;
 
     background: #202022;
+    text-align-all: left;
 
     border: 1px solid #303020;
     border-radius: 14px;
@@ -48,12 +49,13 @@
 }
 .projects .left .projects-list .item .project-info p {
     margin-top: 12px;
+
     color: #999999;
     font-size: 20px;
 }
 .projects .left .projects-list .item > p {
-    font-size: 20px;
     color: #DDDDDD;
+    font-size: 20px;
 }
 
 .projects .right {
@@ -90,7 +92,7 @@
     align-self: center;
 
     color: #DDDDDD;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 500;
 }
 .projects .right .item > p {

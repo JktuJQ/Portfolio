@@ -21,3 +21,12 @@ a {
 a:hover {
     color: #40CC40 !important;
 }
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

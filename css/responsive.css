@@ -1,0 +1,85 @@
+@media screen and (max-width: 1220px) {
+
+    .about {
+        padding: 60px 30px;
+    }
+
+    .projects {
+        flex-direction: column;
+    }
+
+    .projects .left,
+    .projects .right .item,
+    footer {
+        padding: 40px 30px;
+    }
+
+    .projects .right {
+        grid-template-rows: auto auto;
+    }
+
+}
+@media screen and (max-width: 992px) {
+    nav .links {
+        padding: 0 40px;
+    }
+
+    footer {
+        font-size: 16px;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    nav .links a {
+        font-size: 16px;
+    }
+
+    .about {
+        flex-direction: column-reverse;
+        gap: 20px;
+        padding: 30px;
+    }
+
+    .about .left-side .info {
+        margin-top: 30px;
+    }
+
+    .about .right-side img {
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 576px) {
+
+    .about .left-side .info h1 {
+        font-size: 30px;
+    }
+
+    .about .left-side .info p,
+    .projects .left .projects-list .item .project-info p,
+    .projects .left .projects-list .item > p {
+        font-size: 16px;
+    }
+
+    .about .left-side .info .developer-stack li {
+        font-size: 14px;
+    }
+
+    .projects .left .projects-list {
+        margin-top: 40px;
+    }
+
+    .projects .left .projects-list .item .project-info h5,
+    .projects .right .item a {
+        font-size: 20px;
+    }
+
+    .projects .right .item > p,
+    .projects .right .item:not(:first-child) a {
+        font-size: 14px;
+    }
+
+    .projects .right .item:not(:first-child) p {
+        font-size: 13px;
+    }
+
+}

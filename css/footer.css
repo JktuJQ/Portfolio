@@ -5,6 +5,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    text-align: center;
 
     background: #202022;
     color: #DDDDDD;
